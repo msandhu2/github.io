@@ -1,0 +1,49 @@
+body {
+    background-color: #0c0129;
+    background-image: url(XML_JSON2.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-repeat: repeat-y;
+    background-position: bottom;
+}
+    
+a:active, a:hover {
+    color: yellow;
+    font-size: 125%;
+    text-decoration: none;
+}
+
+h1,a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.basics {
+    max-width: 550px;
+    margin: auto;
+    background-color: rgb(62, 18, 119);
+}
+
+table {
+    border: 0.5rem outset black;
+    box-shadow: 0 0 0 2rem black;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    color: white;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+    table-layout: 100%;
+    margin-left: .5em;
+}
+
+th, th:hover {
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-bottom: 1em;
+}
+
+td {
+    padding: .5em 1em; 
+}

@@ -1,0 +1,22 @@
+books { 
+      background-color: #eeeeee;
+      font-family: Verdana, Times, sans-serif; 
+}
+
+heading { 
+     color: black; 
+     font-size : 40px; 
+} 
+
+heading, book, title, author, publishing, book_length { 
+     display:block; 
+}
+
+title { 
+     font-weight: bold; 
+     color: red; 
+}
+
+book:nth-child(odd) { 
+     background-color: skyblue; 
+}
