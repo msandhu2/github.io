@@ -18,11 +18,10 @@
                         <th>Account Total</th>
                     </tr>
                     <xsl:for-each select="Accounts/Client">
-                        <xsl:sort select="Last"/>
+                        <xsl:sort select="Name/Last"/>
                         <tr>
                             <td>
-                                <xsl:value-of select="concat(First,' ',Last)"/>
-                                <!--<xsl:apply-templates select="Name"/> -->
+                                <xsl:apply-templates select="Name"/> 
                             </td>
                             <td>
                                 <xsl:value-of select="Phone"/>
@@ -45,8 +44,8 @@
             </body>
         </html>
     </xsl:template>
-   <!-- <xsl:template match="Name">
-        <xsl:value-of select="First#x20;" />
+    <xsl:template match="Name">
+        <xsl:value-of select="First" />
         <xsl:value-of select="Last" />
-    </xsl:template> -->
+    </xsl:template>
 </xsl:stylesheet>
