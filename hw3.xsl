@@ -5,7 +5,7 @@
         <html>
             <head>
                 <title>List Of Clients</title>
-                <style>table, td, th { border: 1px solid red; } td, th { padding: 5px; }</style>
+                <style>table, td { border: 1px solid blue; } td, th { padding: 5px; }</style>
             </head>
             <body>
                 <h1>List Of Clients</h1>
