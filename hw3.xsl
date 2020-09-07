@@ -20,8 +20,9 @@
                     <xsl:for-each select="Accounts/Client">
                         <tr>
                             <td>
-                                <xsl:apply-templates select="Name"/>
+                                <xsl:apply-templates select="Name">
                                 <xsl:sortselect="Last"/>
+                                </xsl:apply-templates>
                             </td>
                             <td>
                                 <xsl:value-of select="Phone"/>
