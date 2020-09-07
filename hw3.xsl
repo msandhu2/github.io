@@ -18,7 +18,7 @@
                         <th>Account Total</th>
                     </tr>
                     <xsl:for-each select="Accounts/Client">
-                        <xsl:sort select="Name"/>
+                        <xsl:sort select="Last"/>
                         <tr>
                             <td>
                                 <xsl:apply-templates select="Name"/>
