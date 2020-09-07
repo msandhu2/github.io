@@ -45,7 +45,7 @@
         </html>
     </xsl:template>
     <xsl:template match="Name">
-        <xsl:value-of select="First" />
-        #x20;<xsl:value-of select="Last" />
+        <xsl:value-of select="First#x20;" />
+        <xsl:value-of select="Last" />
     </xsl:template>
 </xsl:stylesheet>
