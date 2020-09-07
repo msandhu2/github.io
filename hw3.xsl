@@ -49,4 +49,7 @@
         <xsl:value-of select="First" />
         <xsl:value-of select="Last" />
     </xsl:template>
+    <xsl:template match="Last">
+        <xsl:value-of select="." />
+    </xsl:template>
 </xsl:stylesheet>
