@@ -21,7 +21,7 @@
                         <tr>
                             <td>
                                 <xsl:apply-templates select="Name"/>
-                                <xsl:sortselect="lastname"/>
+                                <xsl:sortselect="Last"/>
                             </td>
                             <td>
                                 <xsl:value-of select="Phone"/>
