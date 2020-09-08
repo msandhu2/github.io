@@ -21,7 +21,7 @@
                     <!--XSL for-each loop that populates the cells of the table from the XML root element Accounts
                         Client child element-->
                     <xsl:for-each select="Accounts/Client">
-                        <!--XSL sort used to sort by the Last name child element of the Name element
+                        <!--XSL sort used to sort by the Last name child element of the Name element-->
                         <xsl:sort select="Name/Last"/>
                         <tr>
                             <td>
