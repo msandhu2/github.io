@@ -56,6 +56,7 @@
     </xsl:template>
     <xsl:template match="Name"> <!--XSL-Template that derives Name from Elements from Sibling Elements First & Last-->
         <xsl:value-of select="First" />
+        <xsl:text></xsl:text>
         <xsl:value-of select="Last" />
     </xsl:template>
 </xsl:stylesheet>
