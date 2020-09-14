@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<!-- Simple XML file with no CSS -->
+<?xml-stylesheet type="text/xsl" href="hw4.xsl"?>
 
 <Accounts>
 
@@ -16,9 +16,9 @@
         </Address>
         <Phone>(532) 555-9939</Phone>
         <E-mail>gwu@brockton.com</E-mail>
-        <Years>8</Years>
         <Account_Total>60000
         </Account_Total>
+        <Years>8</Years>
     </Client>
 
     <Client ID="CS5108">
