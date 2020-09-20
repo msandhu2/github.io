@@ -16,6 +16,10 @@
           font-family: Impact;
         }
         
+        p {
+          font-size: 16;
+        }
+        
         img {
           display: block;
           margin-left: auto;
