@@ -7,6 +7,11 @@
                 <title>List Of Clients</title>
                 <style>table, td { border: 1px solid blue; } td, th { padding: 5px; }</style>
             </head>
+            <style>
+                 body {
+                    background: lightblue;
+                }
+            </style>
             <body>
                 <!--Present h1 List of Clients -->
                 <h1>List Of Clients</h1>
