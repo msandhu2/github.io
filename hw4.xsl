@@ -49,7 +49,7 @@
             </xsl:for-each>
           </p>
           <p>
-            <!-Count all Client with more than 7 years from XML file, and write anser in a sentence-->
+            <!--Count all Client with more than 7 years from XML file, and write anser in a sentence-->
             <xsl:value-of select="count(Accounts/Client/Years[.&gt; 7] )" />
                         of our clients are with us for more than 7 years!</p>
         </div>
