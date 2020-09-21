@@ -30,8 +30,6 @@
           <h1>ABC Financial Startup</h1>
           <!--Image file including sizing-->
           <img src="financialstartup.jpg" alt="Financial Startup Logo" width="100" height="100"/>
-          
-          style="max-width: 100%; margin: auto;"
           <p>We are a very young financial manager company and we are proud of our clients </p>
           
           <!--XPath Count() Function provides tally of the business's number of clients-->
