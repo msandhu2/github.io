@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding = "UTF-8" standalone = "no" ?>
 
 <!DOCTYPE Products [
-<!ELEMENT Products (ProductID*)>
-<!ELEMENT ProductID (Details, Quantity, Unit_Price, Color, Loc)>
-<!ATTLIST Product ProductID ID #REQUIRED>
+<!ELEMENT Prod (#PCDATA)> <!-- Declare Prod ELEMENT -->
+<!ATTLIST Prod ProdID ID #REQUIRED> <!-- ProdID attribute is required and is unique -->
+<!ELEMENT ProdID (Details, Quantity, Unit_Price, Color, Loc)>
 <!ELEMENT Details (Shorter_Desc, Long_Desc)>
 <!ELEMENT Shorter_Desc (#PCDATA)>
 <!ELEMENT Long_Desc (#PCDATA)>
