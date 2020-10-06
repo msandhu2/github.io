@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding = "UTF-8" standalone = "no" ?>
-<!DOCTYPE Products SYSTEM "hw5.dtd">
+
+<!DOCTYPE Products [
+<!ELEMENT Products (ProductID*)>
+<!ELEMENT ProductID (Details, Quantity, Unit_Price, Color, Loc)>
+<!ATTLIST Product ProductID ID #REQUIRED>
+<!ELEMENT Details (Shorter_Desc, Long_Desc)>
+<!ELEMENT Shorter_Desc (#PCDATA)>
+<!ELEMENT Long_Desc (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>
+<!ELEMENT Unit_Price (#PCDATA)>
+<!ELEMENT Color (#PCDATA)*>
+<!ENTITY usa "Made in USA">
+]>
 
 <Products> 
 
