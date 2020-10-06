@@ -1,0 +1,9 @@
+<!ELEMENT Products (ProductID*)>
+<!ELEMENT ProductID (Details, Quantity, Unit_Price, Color, Loc)>
+<!ATTLIST Product ProductID ID #REQUIRED>
+<!ELEMENT Details (Shorter_Desc, Long_Desc)>
+<!ELEMENT Shorter_Desc (#PCDATA)>
+<!ELEMENT Long_Desc (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>
+<!ELEMENT Unit_Price (#PCDATA)>
+<!ELEMENT Color (#PCDATA)*>
