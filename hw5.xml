@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding = "UTF-8" standalone = "no" ?>
 
 <!DOCTYPE Products [
-<!ELEMENT Prod (#PCDATA)>
+<!ELEMENT Products (#PCDATA)>
 <!ATTLIST Prod ProdID ID #REQUIRED>
 <!ELEMENT ProdID (Details, Quantity, Unit_Price, Color, Loc)>
 <!ELEMENT Details (Shorter_Desc, Long_Desc)>
@@ -9,7 +9,7 @@
 <!ELEMENT Long_Desc (#PCDATA)>
 <!ELEMENT Quantity (#PCDATA)>
 <!ELEMENT Unit_Price (#PCDATA)>
-<!ELEMENT Color (#PCDATA)*>
+<!ELEMENT Color (#PCDATA)?>
 <!ENTITY usa "Made in USA">
 ]>
 
