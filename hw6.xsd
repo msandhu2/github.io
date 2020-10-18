@@ -1,0 +1,45 @@
+<?xml version = "1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:annotation>
+  <xs:documentation>This is my Homework 6 which demonstrates the usage of an XML Schema file.</xs:documentation>
+</xs:annotation>  
+<xs:element name="Member">
+  <xs:complexType>
+    <xs:sequence>
+	  <xs:element name="Name">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:length value="30" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:element>
+	  <xs:element name="Age" default="21">
+      <xs:simpleType>
+        <xs:restriction base="xs:positiveInteger">
+          <xs:minInclusive value="21" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:element>
+	  <xs:element name="Job"> 
+        <xs:simpleType>
+             <xs:restriction base="xs:string"> 
+                <xs:enumeration value="Consultant" /> 
+                <xs:enumeration value="Contractor" /> 
+                <xs:enumeration value="Part Time Employee" /> 
+                <xs:enumeration value="Full Time Employee" /> 
+                <xs:enumeration value="Salary" /> 
+            </xs:restriction> 
+        </xs:simpleType> 
+      </xs:element>
+      <xs:element name="Date" type="xs:date"/>
+      <xs:element name="Phone">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="P\d{3}-P\d{3}-P\d{4}" />
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+	</xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
