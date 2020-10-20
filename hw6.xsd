@@ -9,8 +9,7 @@
 	  <xs:element name="Name">
       <xs:simpleType>
         <xs:restriction base="xs:string">
-          <xs:minLength value="1" />
-	  <xs:maxLength value="30" />
+          <xs:maxLength value="30" />
         </xs:restriction>
       </xs:simpleType>
     </xs:element>
@@ -18,8 +17,7 @@
       <xs:simpleType>
         <xs:restriction base="xs:positiveInteger">
           <xs:minInclusive value="21" />
-	  <xs:maxInclusive value="120" />
-        </xs:restriction>
+	</xs:restriction>
       </xs:simpleType>
     </xs:element>
 	  <xs:element name="Job"> 
