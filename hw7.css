@@ -1,11 +1,11 @@
 @namespace east url(http://www.gov.org/west);
 
-heading, state, name, capital { 
+heading, state { 
      display:inline-block; 
 }
 
 states {
-  background: blue;
+  background: powder blue;
 }
 
 east|background {
