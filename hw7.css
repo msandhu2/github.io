@@ -8,6 +8,6 @@ states {
   background: orange;
 }
 
-east|background {
-  color: gray;
+east|state {
+  background: gray;
 }
