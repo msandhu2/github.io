@@ -1,0 +1,8 @@
+@namespace west url(http://www.gov.org/ns/west);
+west|background {
+  color: blue;
+}
+
+east|background {
+  color: gray;
+}
