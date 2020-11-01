@@ -1,4 +1,4 @@
-@namespace east url(http://www.gov.org/ns/west);
+@namespace east url(http://www.gov.org/west);
 
 heading, state, name, capital { 
      display:block; 
