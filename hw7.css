@@ -1,7 +1,7 @@
 @namespace east url(http://www.gov.org/west);
 
-heading, state { 
-     display:inline-block; 
+state { 
+     display: none; 
 }
 
 states {
