@@ -4,8 +4,8 @@ heading, state, name, capital {
      display:block; 
 }
 
-background {
-  color: blue;
+states {
+  background: blue;
 }
 
 east|background {
