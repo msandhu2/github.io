@@ -5,9 +5,9 @@ state {
 }
 
 states {
-  background: orange;
+  background: light orange;
 }
 
 east|state {
-  background: gray;
+  background: light gray;
 }
