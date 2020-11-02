@@ -5,11 +5,9 @@ state {
 }
 
 states {
-  background: #F0F8FF;
-  color: #98FB98;
+  background: #87CEFA;
 }
 
 east|state {
-    background: #000000;
-    color: #00FFFF;
+    background: #DCDCDC;
 }
