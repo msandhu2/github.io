@@ -9,8 +9,6 @@ body {
     
 a:active, a:hover {
     color: yellow;
-    font-size: 125%;
-    text-decoration: none;
 }
 
 h1,a {
