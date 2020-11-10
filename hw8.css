@@ -1,5 +1,5 @@
 body {
-  background: #660000;
+  background: #00BFFF;
   background-image: url("JQuery");
   background-size: cover;
   background-blend-mode: soft-light;
@@ -25,7 +25,7 @@ a:hover {
 
 p {
   font: Arial Narrow, sans-serif;
-  color: #00BFFF;
+  color: #;
 }
 
 blockquote {
