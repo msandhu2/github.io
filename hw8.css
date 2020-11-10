@@ -1,0 +1,21 @@
+body {
+  background: #b9d0eb;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #556b2f;
+}
+
+h1,
+a {
+  color: rgb(61, 114, 89);
+  text-align: center;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  color: yellow;
+}
