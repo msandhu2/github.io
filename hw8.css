@@ -1,26 +1,26 @@
 body {
-  background: hsl(212, 61%, 62%);
+  background: #0000CD;
 }
 
 .container {
   max-width: 700px;
   margin: auto;
-  background-color: hsl(199, 45%, 63%);
+  background-color: #0000CD;
 }
 
 h1,
 a {
-  color: rgb(61, 114, 89);
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
 }
 
 a:active,
 a:hover {
-  color: yellow;
+  color: #FFFF00;
 }
 
 p {
   font: Arial Narrow, sans-serif;
-  color: #ffffff;
+  color: #00BFFF;
 }
