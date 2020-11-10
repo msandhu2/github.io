@@ -1,0 +1,31 @@
+
+<h1>Hoomework 8</h1>
+<p> 1. The main characteristic of  XQuery is that it is a language that was developed  to extract data not only from XML files , but also relational databases that utilize non XML formats. 
+ Furthermore, XQuery can be used to merge data from multiple sources by using this language that is easy to use if you are familiar with XPath syntax. </p>
+
+<p>2. I suggest that we leverage the skills I've learned in XML class to track our IS expenditures using XQuery to analyze the data contained in our AssetManager application.  
+After all, AssetManager stores the data in a relational database and XQuery can be used to calculate the organizations spending for an entire year.  We can beakdown the amount of money spent on monitors, 
+computers, laptops, and other peripherals.  As an example, the XQuery code below is used to list all books that cost less than $30 from the hw8.xml file.  </p>
+
+<code>
+xquery version "1.0";
+
+for $b in
+   doc("hw8.xml")/bookstore/book
+   
+where 
+   $b/price < 30
+
+return $b/title
+</code>
+
+<p>Using XQuery, we can query AssetManager to see how many laptops, monitors, docking stations, Arubas, etc were deployed per region for the Work From Home project. XQuery saves the data in an XML formated file 
+that stores well and can easily be rendered on our intranet site, Sharepoint, Teams, and more. </p>
+
+<p>3. Introducing XQIB which is an achronym that stands for XQuery in the Browser. Is a library used to make client-side web applications by expanding Javascript with many useful functions.</p>
+
+
+<h3>References</h3>
+<a href="https://www.tutorialspoint.com/xquery/xquery_overview.htm#:~:text=Characteristics,to%20navigate%20through%20XML%20documents.">TutorialsPoint</a>
+<a href="https://www.codemag.com/Article/0305091/XQuery-the-Query-Language-of-the-Future">Code Magazine</a>
+<a href="http://www.xqib.org/documentation.php">Xquery in the Browser</a>
