@@ -1,5 +1,5 @@
 body {
-  background: #0000CD;
+  background: #ffa500;
 }
 
 .container {
@@ -8,8 +8,7 @@ body {
   padding: 20px;
 }
 
-h1,
-a {
+h1, h3, a {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
