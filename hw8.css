@@ -24,3 +24,9 @@ p {
   font: Arial Narrow, sans-serif;
   color: #00BFFF;
 }
+
+blockquote {
+  font-weight: bold;
+  font-style: italic;
+  color: #ffffff;
+}
