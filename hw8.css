@@ -1,5 +1,7 @@
 body {
   background: #92a8d1;
+  background-image: url("JQuery");
+  opacity: 0.5;
 }
 
 .container {
