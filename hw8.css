@@ -5,7 +5,8 @@ body {
 .container {
   max-width: 700px;
   margin: auto;
-  background-color: #556b2f;
+  color: #000000;
+  background-color: #00bfff;
 }
 
 h1,
