@@ -1,9 +1,5 @@
 body {
   background: #00BFFF;
-  background-image: url("JQuery");
-  background-size: cover;
-  background-blend-mode: soft-light;
-  background-position: bottom;
 }
 
 .container {
