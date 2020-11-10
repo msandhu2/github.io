@@ -13,7 +13,7 @@ body {
 }
 
 h1, h3, a {
-  color: #ffffff;
+  color: #FFFFFF;
   text-align: center;
   text-decoration: none;
 }
@@ -25,12 +25,12 @@ a:hover {
 
 p {
   font: Arial Narrow, sans-serif;
-  color: #;
+  color: #000000;
 }
 
 blockquote {
   font-weight: bold;
   font-style: italic;
   font-size: 1.5em;
-  color: #ffffff;
+  color: #FFFFFF;
 }
