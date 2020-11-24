@@ -9,7 +9,7 @@
 
       <style type="text/css"><![CDATA[
         #rect1 { fill: url(#Gradient1); }
-        .stop1 { stop-color: yellow; }
+        .stop1 { stop-color: red; }
         .stop2 { stop-color: black; stop-opacity: 0; }
         .stop3 { stop-color: blue; }
       ]]></style>
