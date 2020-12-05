@@ -28,7 +28,7 @@
                 // load the template
                 var template = $('#speakerstpl').html();
                 // load the data
-                var html = Mustache.to_html(template, data);
+                var html = Mustache.render(template, data);
                 $('#carousel').html(html);
             }); // getJSON
         }); // function
