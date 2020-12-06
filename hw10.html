@@ -21,26 +21,30 @@ var friends = [{
 var tablecell1 = '<tr><td>' + friends[0].name + '</td><td>' + friends[0].profession + '</td></tr>'
 function addRow(tableID) {
   // Get a reference to the table
-  let tableRef = document.getElementById(tableID);
+  let tbodyRef = document.getElementById('myTable').getElementsByTagName('tbody')[0];
 
   // Insert a row at the end of the table
-  let newRow = tableRef.insertRow(-1);
+  let newRow = tbodyRef.insertRow();
 
   // Append a text node to the cell
-  newCell.appendChild(tablecell1);
+  newRow.appendChild(tablecell1);
 }
 
 // Call addRow() with the table's ID
-addRow('my-table');
+addRow('myTable');
 </script>
 
 </head> 
 <body>
-   <table id= "my-table" border="2">
-        <tr>
-            <th>Name</th>
-            <th>Profession</th>
-        </tr>
+   <table id= "myTable" border="2">
+        <thead>
+             <tr>
+               <th>Name</th>
+               <th>Profession</th>
+             </tr>
+        </thead>
+        <tbody>
+        </tbody>
    </table>
 
 </div>
