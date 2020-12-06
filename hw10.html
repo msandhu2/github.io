@@ -21,7 +21,7 @@ var friends = [{
 var tablecell1 = '<tr><td>' + friends[0].name + '</td><td>' + friends[0].profession + '</td></tr>'
 function addRow(tableID) {
   // Get a reference to the table
-  let tbodyRef = document.getElementById('myTable').getElementsByTagName('tbody')[0];
+  let tbodyRef = document.getElementById('myTable').rows[0];
 
   // Insert a row at the end of the table
   let newRow = tbodyRef.insertRow();
