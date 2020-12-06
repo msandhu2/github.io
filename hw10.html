@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Homework 10</title>
+</head>
+<script>
+var friends = [{
+     "name": "John",
+     "age": "28",
+     "gender": "male",
+     "profession": "sales rep"
+},
+{
+     "name": "Maryenne",
+     "age": "26",
+     "gender": "female",
+     "profession": "web developer"
+}];
+
+var tablecell1 = '<tr><td>' + friends[0].name + '</td><td>' + friends[0].profession + '</td></tr>'
+document.getElementById("person").innerHTML = tablecell1;
+</script>
+
+</head> 
+<body>
+<p id="person"></p>
+<p><a href="./hw10.json">HW10 File converted to JSON</a></p>
+</body>
+</html>
