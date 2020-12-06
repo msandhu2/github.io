@@ -1,0 +1,5 @@
+  body { background-color: lightgray; }
+  #speakerbox { width: 800px; padding: 5px; margin: 0 auto;}
+  #carousel { margin-top: 10px; }
+  .speaker { font-family: Verdana, sans-serif; }
+  .speaker img { border: 2px solid blue; }
