@@ -19,12 +19,32 @@ var friends = [{
 }];
 
 var tablecell1 = '<tr><td>' + friends[0].name + '</td><td>' + friends[0].profession + '</td></tr>'
-document.getElementById("friends").innerHTML = tablecell1;
+var tbodyRef = document.getElementById('myTable').getElementsByTagName('tbody')[0];
+
+// Insert a row at the end of table
+var newRow = tbodyRef.insertRow();
+
+// Insert a cell at the end of the row
+var newCell = newRow.insertCell();
+
+// Append a text node to the cell
+var newText = document.createTextNode('new row');
+newCell.appendChild(newText);
 </script>
 
 </head> 
 <body>
-<p id="friends"></p>
+   <table id= "myTable" border="2">
+        <thead>
+            <th>Name</th>
+            <th>Profession</th>
+        </thead>
+       <tbody>
+
+       </tbody>
+   </table>
+
+</div>
 <p><a href="./hw10.json">HW10 File converted to JSON</a></p>
 </body>
 </html>
