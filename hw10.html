@@ -21,11 +21,12 @@ var friends = [{
 var tablecell1 = '<tr><td>' + friends[0].name + '</td><td>' + friends[0].profession + '</td></tr>'
 function addRow() {
   // Get a reference to the table
-  var x = document.getElementById('myTable').insertRow(0);
-  var y = x.insertCell(0);
-  var z = x.insertCell(1);
-  y.innerHTML="";
-  z.innerHTML="";
+  var table = document.getElementById('myTable');
+  var row = table.inserRow(0);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  cell1.innerHTML = "friend[0].name";
+  cell2.innerHTML = "friend[0].profession";
 }
 
 // Call addRow() with the table's ID
