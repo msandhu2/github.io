@@ -18,21 +18,21 @@ var friends = [{
      "profession": "web developer"
 }];
 function addRow(){
-var tablecell1 = '<tr><td>' + friends[0].name + '</td><td>' + friends[0].profession + '</td></tr>';
+ var tablecell1 = '<tr><td>' + friends[0].name + '</td><td>' + friends[0].profession + '</td></tr>';
  // Get a reference to the table
-  var newRow = HTMLTableElement.insertRow(-1);
-  //var table = document.getElementById('myTable');
+  //var newRow = HTMLTableElement.insertRow(-1);
+  var table = document.getElementById("myTable");
   //return tablecell1;
-  //var row = table.insertRow();
-  //var cell1 = row.insertCell(0);
-  //var cell2 = row.insertCell(1);
-  //cell1 = row.insertCell(0);
-  //cell2 = row.insertCell(1);
+  var row = table.insertRow();
+  var cell1 = row.insertCell();
+  var cell2 = row.insertCell();
+  cell1.innerHTML = friends.name[0];
+  cell2.innerHTML = friends.proession[0];
 }
 
 // Call addRow() with the table's ID
 //addRow('myTable');
-window.onload = addRow('myTable');
+window.onload = addRow();
 </script>
 
 </head> 
