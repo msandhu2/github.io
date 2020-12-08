@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <title>Homework 10</title>
-</head>
 <script>
 var friends = [{
      "name": "John",
@@ -26,8 +25,8 @@ function addRow(){
   var row = table.insertRow();
   var cell1 = row.insertCell();
   var cell2 = row.insertCell();
-  cell1.innerHTML = friends.name[];
-  cell2.innerHTML = friends.profession[];
+  cell1.innerHTML = friends.name[0];
+  cell2.innerHTML = friends.profession[0];
 }
 
 // Call addRow() with the table's ID
