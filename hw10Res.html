@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Homework 10</title>
+    <script>
+      var friends = [
+        {
+          name: "John",
+          age: "28",
+          gender: "male",
+          profession: "sales rep",
+        },
+        {
+          name: "Maryenne",
+          age: "26",
+          gender: "female",
+          profession: "web developer",
+        },
+      ];
+      function addRow() {
+        var tablecell1 =
+          "<tr><td>" +
+          friends[0].name +
+          "</td><td>" +
+          friends[0].profession +
+          "</td></tr>";
+        var resultantTable = document.querySelectorAll("myTable");
+        resultantTable[0].appendChild(tablecell1);
+      }
+
+      // Call addRow() with the table's ID
+      //addRow('myTable');
+      //window.onload = addRow();
+    </script>
+  </head>
+  <body>
+    <input type="button" value="Add another line" onclick="addRow();" />
+    <table id="myTable" border="2">
+      <tr>
+        <td>Name</td>
+        <td>Profession</td>
+      </tr>
+    </table>
+    <p><a href="./hw10.json">HW10 File converted to JSON</a></p>
+  </body>
+</html>
+
