@@ -9,6 +9,10 @@ div {
   padding: 10px;
 }
 
+#myTable {
+  margin: auto;
+}
+
 p {
-  color: #ff3300;
+  color: #fa0c1c;
 }
