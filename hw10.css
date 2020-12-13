@@ -12,3 +12,7 @@ div {
 a, h2 {
   color: #fa0c1c;
 }
+
+code {
+  background-color: #eeeeee;
+}
