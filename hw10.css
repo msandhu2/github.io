@@ -1,0 +1,14 @@
+body {
+  background: lightgrey;
+  color: blue;
+}
+
+div {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+p {
+  color: #ff3300;
+}
