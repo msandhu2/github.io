@@ -4,7 +4,6 @@ body {
 }
 
 div {
-  max-width: 500px;
   margin: auto;
   padding: 10px;
 }
@@ -13,6 +12,6 @@ div {
   margin: auto;
 }
 
-p {
+a {
   color: #fa0c1c;
 }
