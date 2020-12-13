@@ -4,12 +4,9 @@ body {
 }
 
 div {
+  width: 500px;
   margin: auto;
   padding: 10px;
-}
-
-#myTable {
-  margin: auto;
 }
 
 a {
