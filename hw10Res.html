@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <title>Homework 10</title>
+    <style>
+      body{
+      background: #ccddff;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      
+    </style>
     <script>
       var friends = [
         {
@@ -30,8 +38,7 @@
       }
     </script>
   </head>
-  <body>
-    <input type="button" value="Add another line" onclick="addRow();" />
+  <body onload="addRow()">
     <table id="myTable" border="2">
       <tr>
         <td>Name</td>
