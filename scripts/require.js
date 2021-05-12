@@ -1432,13 +1432,13 @@ var requirejs, require, define;
                         map = makeModuleMap(deps, relMap, false, true);
                         id = map.id;
 
-                        if (!hasProp(defined, id)) {
+                      /*  if (!hasProp(defined, id)) {
                             return onError(makeError('notloaded', 'Module name "' +
                                         id +
                                         '" has not been loaded yet for context: ' +
                                         contextName +
                                         (relMap ? '' : '. Use require([])')));
-                        }
+                        }*/
                         return defined[id];
                     }
 
