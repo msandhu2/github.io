@@ -1,20 +1,20 @@
 //const express = require('express');
 const stripe = require('stripe')('sk_test_51IlG26JCX6EEDeQhSq2gnjz6SRxIuqz5quBB7zlX7aGSEaALVhU9l9HDBslPIXSBTlO7Hpgu6tyZHCS4RoOXChMk00HNhTHGao');
 const bodyParser = require('body-parser');
-const exphbs = require('express-handlebars');
+//const exphbs = require('express-handlebars');
 
-const app = express();
+//const app = express();
 
 // Handlebars Middleware
-app.engine('handlebars',exphbs({deafultLayout:'main'}));
-app.set('view engine', 'handlebars');
+//app.engine('handlebars',exphbs({deafultLayout:'main'}));
+//app.set('view engine', 'handlebars');
 
 // Body Parser Middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 
 // Set Static Folder
-app.use(express.static(`${__dirname}/public`));
+//app.use(express.static(`${__dirname}/public`));
 
 // Index Route
 app.get('/', (req,res) => {
